@@ -1,7 +1,7 @@
 // JavaScript Document
 
 $(document).ready(function (e){
-	document.addEventListener("deviceredady",function(){
+	document.addEventListener("deviceready",function(){
 		$('#beep').tap(function(){
 			navigator.notification.beep(2);
 		});//tap beep
@@ -9,4 +9,4 @@ $(document).ready(function (e){
 			navigator.notification.vibrate(1000);
 		});//tap vibrar
 	},false ); //deviceready
-});//raady
+});//ready
